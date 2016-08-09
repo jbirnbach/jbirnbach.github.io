@@ -3,7 +3,9 @@ body {
 }
 h1 {
     color: blue;
+	font:Arial;
 }
 p {
     color: DeepPink;
+    font:Arial;
 }
