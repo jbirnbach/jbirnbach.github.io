@@ -3,11 +3,12 @@ body {
 }
 h1 {
     color: Black;
-	font: "Verdana";
+	font-family: Impact;
 	text-align:center
 }
 p {
     color: Indigo;
-    font: "Verdana";
+    font-family: Imapct;
     text-align:center
+    font-size: 160%;
 }
