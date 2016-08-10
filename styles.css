@@ -11,4 +11,5 @@ p {
     font-family: Imapct;
     text-align:center
     font-size: 160%;
+    border: 1px solid black;
 }
