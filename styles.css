@@ -3,11 +3,11 @@ body {
 }
 h1 {
     color: blue;
-	font:Lucida Console;
+	font: Verdana Bold;
 	text-align:center
 }
 p {
     color: DeepPink;
-    font:Lucida Console;
+    font: Verdana Bold;
     text-align:center
 }
