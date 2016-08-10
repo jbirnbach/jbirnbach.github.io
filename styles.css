@@ -1,13 +1,13 @@
 body {
-    background-color: AliceBlue;
+    background-image: url("http://thewellnesscouchclub.com/wp-content/uploads/2014/12/white-wood-wall-texture-wallpaper21.jpg");
 }
 h1 {
-    color: blue;
-	font: Verdana Bold;
+    color: Black;
+	font: "Verdana";
 	text-align:center
 }
 p {
-    color: DeepPink;
-    font: Verdana Bold;
+    color: Indigo;
+    font: "Verdana";
     text-align:center
 }
