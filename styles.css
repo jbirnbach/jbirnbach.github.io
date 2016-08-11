@@ -1,15 +1,21 @@
 body {
-    background-image: url("http://thewellnesscouchclub.com/wp-content/uploads/2014/12/white-wood-wall-texture-wallpaper21.jpg");
+    background-image: url("https://thumbs.dreamstime.com/t/white-wood-texture-background-modern-vertical-seamless-wooden-32062378.jpg");
 }
 h1 {
     color: Black;
-	font-family: Impact;
+	font-family: Arial;
 	text-align:center
 }
 p {
     color: Indigo;
-    font-family: Imapct;
-    text-align:center
-    font-size: 160%;
-
+    font-family: Arial;
+    text-align:center;
+    font-size: 24px;
+}
+img {
+   border: 4px solid #021a40;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 20px;
 }
