@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+       #map {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
   <title>Me.</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -115,7 +121,20 @@
 <footer class="container-fluid text-center">
   <p>Julia Birnbach</p>
 </footer>
-
+<h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 44.540, lng: -78.546},
+            zoom: 8
+        });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4-uWiBHSkwAToXGkE4-UN5zEMS-etMLo&callback=initMap">
+    </script>
 </body>
 </html>
 
